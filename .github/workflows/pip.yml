@@ -17,9 +17,6 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
           cache: maven
-          
-      - name: Run Unit Tests
-        run: mvn test
         
       - name: Run Unit Tests
         run: mvn test -DskipTests
