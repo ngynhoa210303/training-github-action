@@ -21,7 +21,7 @@ jobs:
       - name: Run Unit Tests
         run: mvn test
 
-  analyze:   # ✅ ĐÚNG — ngang cấp với build
+  analyze:
     name: Analyze
     runs-on: ubuntu-latest
     permissions:
