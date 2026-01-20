@@ -20,6 +20,10 @@ jobs:
           
       - name: Run Unit Tests
         run: mvn test
+        
+      - name: Run Unit Tests
+        run: mvn test -DskipTests
+
 
   analyze:
     name: Analyze
